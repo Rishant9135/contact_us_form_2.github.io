@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(25, 25, 30);
+    color: white;
+}
+
+::placeholder{
+    color: white;
+    opacity: 0.8;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+span{
+    font-size: 1.1rem;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-section{
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contact-us-area{
+    width: 80%;
+
+}
+
+.contact-desc{
+    border: 0;
+    border-right: 2px solid orange;
+    border-radius: 10px;
+    width: 50%;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.details{
+    margin-block: 20px;
+}
+
+.icon{
+    width: 15%;
+    
+}
+
+.icon img{
+    width: 100%;
+    height: 100%;
+    color: rebeccapurple;
+}
+.contact-detail{
+    width: 85%;
+    padding-inline: 15px;
+}
+
+.contact-desc p{
+    margin-block: 30px;
+}
+
+
+.contact-desc span{
+    margin-block: 50px;
+}
+
+
+
+
+
+.contact-form-area{
+    border: 0;
+    border-left: 2px solid orange;
+    border-radius: 10px;
+    width: 50%;
+}
+.contact-form-area h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-block: 15px;
+}
+.contact-form{
+    flex-direction: column;
+}
+
+.contact-form input{
+    padding: 20px;
+    font-size: 17px;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    margin: 10px auto 10px;
+    color: white;  
+}
+
+.contact-form textarea{
+    padding: 20ox;
+    font-size: 17px;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    margin: 10px auto 10px;
+    color: white; 
+    resize: none; 
+}
+
+.contact-form input[type=button]{
+    width: 35%;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: 0.5s ease-in-out;
+    font-size: 18px;
+}
+
+.contact-form input[type=button]:hover{
+    border: 2px solid white;
+    outline: 1;
+    box-sizing: border-box;
+    width: 37%;
+    height: auto;
+    box-shadow: 0 0 7px white;
+    font-size: 20px;
+}
